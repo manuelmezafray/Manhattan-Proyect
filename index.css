@@ -1,0 +1,82 @@
+ *{
+     margin: 10px;
+     padding: 2px;
+     box-sizing: border-box; 
+ }
+
+@font-face {
+    font-family: "CK3";
+    src: url(../Manhattan-Proyect/Fonts/Missale\ AS\ Lunea.ttf);
+}
+
+@font-face {
+    font-family: "EU4";
+    src: url(../Manhattan-Proyect/Fonts/TrajanPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Stellaris";
+    src: url(../Manhattan-Proyect/Fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Letra más normal";
+    src: url(../Manhattan-Proyect/Fonts/ProductSans.woff2);
+}
+
+ @font-face {
+     font-family: "Roboto";
+     src: url(../Manhattan-Proyect/Fonts/Roboto-Regular.ttf);
+ }
+
+body { 
+    font-size: 18px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-family: "Roboto", Arial;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin: 50px 50px;
+    background-color: purple ;
+}
+
+#logo {
+    width:  40px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav ol {
+    display: flex;
+}
+
+nav ol li {
+    margin: 0px 16px;
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Letra más normal", Arial;
+}
+
+#news {
+    height: 50vh;
+    margin: 0px;
+    padding: 35px;
+}
+
+#about {
+    height: 50vh;
+    margin: 0px;
+    padding: 35px;
+}

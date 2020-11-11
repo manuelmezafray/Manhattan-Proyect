@@ -31,7 +31,7 @@
 
 body { 
     font-size: 18px;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(26, 26, 26);
     color: white;
     font-family: "Roboto", Arial;
     margin: 0px;
@@ -41,8 +41,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center ;
-    margin: 50px 50px;
-    background-color: purple ;
+    margin: 50px ;
+    background-color: rgba(0, 0, 0, 0.593) ;
 }
 
 #logo {
@@ -69,7 +69,7 @@ nav ol li a {
     font-family: "Letra más normal", Arial;
 }
 
-#news {
+#new {
     height: 50vh;
     margin: 0px;
     padding: 35px;
@@ -79,4 +79,17 @@ nav ol li a {
     height: 50vh;
     margin: 0px;
     padding: 35px;
+}
+
+.bg-primary {
+    background-color: rgb(34, 34, 34);
+}
+  
+.bg-news-video {
+    background-color: rgb(40, 40, 40);
+}
+
+.container {
+    column-count: 4;
+    text-align: center;
 }

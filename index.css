@@ -41,8 +41,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center ;
-    margin: 50px ;
-    background-color: rgba(0, 0, 0, 0.593) ;
+    margin: 20 ;
+    background-color: rgba(0, 0, 0, 0.209) ;
 }
 
 #logo {
@@ -69,8 +69,7 @@ nav ol li a {
     font-family: "Letra más normal", Arial;
 }
 
-#new {
-    height: 50vh;
+#container {
     margin: 0px;
     padding: 35px;
 }
@@ -84,12 +83,44 @@ nav ol li a {
 .bg-primary {
     background-color: rgb(34, 34, 34);
 }
-  
-.bg-news-video {
-    background-color: rgb(40, 40, 40);
+
+.flex-container {
+    display: flex;
 }
 
-.container {
-    column-count: 4;
-    text-align: center;
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+} 
+
+.flex {
+    flex: 1;
+}
+
+#hero {
+    width: 100%;
+    height: 640px;
+    background: linear-gradient(transparent, rgb(26, 26, 26)), url(../Manhattan-Proyect/Images/Stellaria/descarga.jpeg);
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+#video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+#video-container iframe {
+    position: absolute;
+    top: 0;
+    right: 10;
+    bottom: 0;
+    margin: 64px ;
+    width: 80%;
+    height: 80%;
 }

@@ -69,9 +69,7 @@ nav ol li a {
     font-family: "Letra más normal", Arial;
 }
 
-#container {
-    margin: 0px;
-    padding: 35px;
+.container {
 }
 
 #about {
@@ -84,16 +82,6 @@ nav ol li a {
     background-color: rgb(34, 34, 34);
 }
 
-.flex-container {
-    display: flex;
-}
-
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-} 
 
 .flex {
     flex: 1;
@@ -118,9 +106,59 @@ nav ol li a {
 #video-container iframe {
     position: absolute;
     top: 0;
-    right: 10;
+    right: 0;
     bottom: 0;
     margin: 64px ;
     width: 80%;
     height: 80%;
+    left: 0;
+}
+
+.container {
+    flex-direction: row;
+}
+
+#Ck3 {
+    margin: 0 auto;
+    display: flex;
+    height: 275px;
+    width: 350px;
+}
+
+#Imperator {
+    margin: 0 auto;
+    display: flex;
+    height: 275px;
+    width: 350px;
+}
+
+#Hoi4 {
+    margin: 0 auto;
+    display: flex;
+    height: 275px;
+    width: 350px;
+}
+
+#Stellaris {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 275px;
+    width: 350px;
+}
+
+#Eu4 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 275px;
+    width: 350px;
+}
+
+#Vic2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 275px;
+    width: 350px;
 }

@@ -111,16 +111,12 @@ nav ol li a {
     left: 0;
 }
 
-.container {
-    flex-direction: row;
-    background-color: rgb(34, 34, 34);
-}
 
 #Ck3 {
     margin: 0 auto;
     display: flex;
-    height: 300px;
-    width: 400px;
+    height: 225px;
+    width: 300px;
 }
 
 #Imperator {

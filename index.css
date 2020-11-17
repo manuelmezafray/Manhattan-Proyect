@@ -69,9 +69,6 @@ nav ol li a {
     font-family: "Letra más normal", Arial;
 }
 
-.container {
-}
-
 #about {
     height: 50vh;
     margin: 0px;
@@ -116,6 +113,7 @@ nav ol li a {
 
 .container {
     flex-direction: row;
+    background-color: rgb(34, 34, 34);
 }
 
 #Ck3 {

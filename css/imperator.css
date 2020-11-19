@@ -1,0 +1,148 @@
+*{
+    padding: 2px;
+    box-sizing: border-box; 
+}
+
+@font-face {
+    font-family: "CK3";
+    src: url(../Manhattan-Proyect/Fonts/Missale\ AS\ Lunea.ttf);
+}
+
+@font-face {
+    font-family: "EU4";
+    src: url(../Manhattan-Proyect/Fonts/TrajanPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Stellaris";
+    src: url(../Manhattan-Proyect/Fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Letra más normal";
+    src: url(../Manhattan-Proyect/Fonts/ProductSans.woff2);
+}
+
+ @font-face {
+     font-family: "Roboto";
+     src: url(../Manhattan-Proyect/Fonts/Roboto-Regular.ttf);
+ }
+
+ body { 
+    font-size: 18px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: "Roboto", Arial;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin: 20 ;
+    background-color: rgba(0, 0, 0, 0.209) ;
+}
+
+#logo {
+    width:  40px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav ol {
+    display: flex;
+}
+
+nav ol li {
+    margin: 0px 16px;
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Letra más normal", Arial;
+}
+
+#Videito {
+    position: absolute;
+    right: 150px;
+    top: 200px;
+}
+
+#descripción {
+    flex: 0 0 50%;
+    padding: 0 10px 0 0;
+    width: 50%;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+#titulo {
+    margin-left: 35px;
+}
+
+#info_principal {
+    background-image: url(../Images/Imperator/imp_rome_base_top.jpg);
+    padding: 80px;
+}
+
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    -ms-flex-align: center;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#implogo {
+    width: 50%;
+}
+
+#cositasporlascualesmecomplicolavida {
+    -ms-flex: 1 0 calc(100% - 76px);
+    flex: 1 0 calc(100% - 76px);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+#cosito {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 0;
+    color: #f6f6f6;
+}
+
+#cosito {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    border-top: 1px solid #282828;
+}
+
+#cosito_recargado {
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #adadad;
+}
+
+#implogo{
+    margin-left: 92%;
+} 

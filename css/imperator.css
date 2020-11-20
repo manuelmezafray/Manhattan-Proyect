@@ -89,6 +89,7 @@ nav ol li a {
 #info_principal {
     background-image: url(../Images/Imperator/imp_rome_base_top.jpg);
     padding: 80px;
+    background-position-x: right;
 }
 
 .container {
@@ -101,6 +102,8 @@ nav ol li a {
     margin-bottom: -20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: center;
+    margin-left: -420px;
 }
 
 #implogo {
@@ -213,4 +216,11 @@ nav ol li a {
     text-transform: uppercase;
     font-size: 70%;
     text-align: center;
+}
+
+#fondo {
+    background-image: url(../Images/Imperator/New_Imp_pdp_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
 }

@@ -87,11 +87,9 @@ nav ol li a {
 }
 
 #info_principal {
-    background-image: url(../Images/Hoi4/hearts-of-iron-4-1080P-wallpaper-middle-size.png);
+    background-image: url(../Images/Stellaris/background-top.jpeg);
     padding: 80px;
-    background-position-x: 50%;
     background-repeat: no-repeat;
-    background-position-x: right ;
     background-size: cover;
 }
 
@@ -109,7 +107,7 @@ nav ol li a {
     margin-left: 120px;
 }
 
-#hoi4logo {
+#stellarislogo {
     width: 60%;
 }
 
@@ -171,7 +169,7 @@ nav ol li a {
 #colores {
     left: auto;
     transform: none;
-    color: #debf92;
+    color: #49cd9b;
     position: relative;
     font-style: normal;
     font-weight: 400;
@@ -179,7 +177,7 @@ nav ol li a {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 70%;
-    border-bottom: 1px solid #e5d195;
+    border-bottom: 1px solid #49cd9b;
 
 }
 
@@ -210,7 +208,7 @@ nav ol li a {
 #colores2 {
     left: auto;
     transform: none;
-    color: #debf92;
+    color: #49cd9b;
     position: relative;
     font-style: normal;
     font-weight: 400;
@@ -222,16 +220,17 @@ nav ol li a {
 }
 
 #fondo {
-    background-image: url(../Images/Hoi4/hoiiv-base-pdp-top.jpg);
+    background-image: url(../Images/Stellaris/stellaris-info-bg.jpg);
     background-repeat: no-repeat;
-    background-position-x: left ;
     background-size: cover;
+    background-position-x: right ;
+    background-position: -1500px;
 }
 
 #colores3 {
     left: auto;
     transform: none;
-    color: #debf92;
+    color: #49cd9b;
     position: relative;
     font-style: normal;
     font-weight: 400;

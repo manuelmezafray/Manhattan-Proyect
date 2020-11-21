@@ -87,7 +87,7 @@ nav ol li a {
 #hero {
     width: 100%;
     height: 640px;
-    background: linear-gradient(transparent, rgb(26, 26, 26)), url(../Manhattan-Proyect/Images/Stellaria/descarga.jpeg);
+    background: linear-gradient(transparent, rgb(26, 26, 26)), url(../Manhattan-Proyect/Images/#Stellaris/descarga.jpeg);
     position: absolute;
     z-index: -1;
     background-size: cover;

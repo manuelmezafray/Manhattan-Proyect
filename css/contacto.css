@@ -1,0 +1,189 @@
+*{
+    margin: 10px;
+    padding: 2px;
+    box-sizing: border-box; 
+}
+
+@font-face {
+   font-family: "CK3";
+   src: url(../Manhattan-Proyect/Fonts/Missale\ AS\ Lunea.ttf);
+}
+
+@font-face {
+   font-family: "EU4";
+   src: url(../Manhattan-Proyect/Fonts/TrajanPro-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Stellaris";
+   src: url(../Manhattan-Proyect/Fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Letra más normal";
+   src: url(../Manhattan-Proyect/Fonts/ProductSans.woff2);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Manhattan-Proyect/Fonts/Roboto-Regular.ttf);
+}
+
+body { 
+   font-size: 18px;
+   background-color: rgb(26, 26, 26);
+   color: white;
+   font-family: "Roboto", Arial;
+   margin: 0px;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   align-items: center ;
+   margin: 20 ;
+   background-color: rgba(0, 0, 0, 0.209) ;
+}
+
+#logo {
+   width:  40px;
+}
+
+nav {
+   background-color: transparent;
+}
+
+nav ol {
+   display: flex;
+}
+
+nav ol li {
+   margin: 0px 16px;
+   list-style: none;
+}
+
+nav ol li a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-family: "Letra más normal", Arial;
+}
+
+#about {
+   height: 50vh;
+   margin: 0px;
+   padding: 35px;
+}
+
+.bg-primary {
+   background-color: rgb(34, 34, 34);
+}
+
+
+.flex {
+   flex: 1;
+}
+
+#hero {
+   width: 100%;
+   height: 640px;
+   background: linear-gradient(transparent, rgb(26, 26, 26)), url(../Manhattan-Proyect/Images/#Stellaris/descarga.jpeg);
+   position: absolute;
+   z-index: -1;
+   background-size: cover;
+}
+
+#video-container {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   padding-top: 56.25%;
+   margin-left: 60px;
+}
+
+#video-container iframe {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: 64px ;
+   width: 80%;
+   height: 80%;
+   left: 0;
+}
+
+
+#Ck3 {
+   margin: 0 auto;
+   display: flex;
+   height: 225px;
+   width: 300px;
+}
+
+#Imperator {
+   margin: 0 auto;
+   display: flex;
+
+}
+
+#Hoi4 {
+   margin: 0 auto;
+   display: flex;
+   height: 275px;
+   width: 350px;
+}
+
+#Stellaris {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   height: 275px;
+   width: 350px;
+}
+
+#Eu4 {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   height: 275px;
+   width: 350px;
+}
+
+#Vic2 {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   height: 275px;
+   width: 350px;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: transparent;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}

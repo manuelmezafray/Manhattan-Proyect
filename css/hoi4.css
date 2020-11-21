@@ -244,3 +244,11 @@ nav ol li a {
 #image {
     width: 500px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.209) ;
+}

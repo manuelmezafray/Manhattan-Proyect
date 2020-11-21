@@ -238,3 +238,12 @@ nav ol li a {
     text-transform: uppercase;
     text-align: center;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.209) ;
+}

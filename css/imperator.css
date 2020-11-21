@@ -224,3 +224,11 @@ nav ol li a {
     background-size: cover;
     background-position-x: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.209) ;
+}
